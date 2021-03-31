@@ -72,6 +72,11 @@ import WebKit
 
     // MARK: - Helpers
 
+    public func updateInput(input: String? = nil,
+                       customAdditionalAttributes: [String: [NSAttributedString.Key: Any]]? = nil) {
+        self.update(input: input, customAdditionalAttributes: customAdditionalAttributes)
+    }
+    
     public func update(input: String? = nil,
                        latexParser: LatexParserProtocol? = nil,
                        font: UIFont? = nil,
