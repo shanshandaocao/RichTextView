@@ -9,7 +9,7 @@
 import SnapKit
 import WebKit
 
-public class RichTextView: UIView {
+@objcMembers public class RichTextView: UIView {
 
     // MARK: - Properties
 
